@@ -1,0 +1,976 @@
+/* FONTS */
+@font-face {
+    font-family: 'Gotham Black';
+    src: url('../fonts/subset-Gotham-Black.eot');
+    src: url('../fonts/subset-Gotham-Black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/subset-Gotham-Black.woff2') format('woff2'),
+         url('../fonts/subset-Gotham-Black.woff') format('woff'),
+         url('../fonts/subset-Gotham-Black.ttf') format('truetype'),
+         url('../fonts/subset-Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{font-family:'FontAwesome';
+    src:url('../fonts/FontAwsome/fontawesome-webfont.eot?v=4.7.0');
+    src:url('../fonts/FontAwsome/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+    url('../fonts/FontAwsome/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+    url('../fonts/FontAwsome/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('../fonts/FontAwsome/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+    url('../fonts/FontAwsome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+
+.content-frame {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+
+.header-topbar {
+    padding: 23px 0;
+}
+
+.topbar-logo-box {
+    float: left;
+}
+
+
+.topbar-menu-box {
+    float: right;
+    margin-top: 20px;
+}
+
+.topbar-menu-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.topbar-menu-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #868686;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 21px;
+}
+
+.topbar-menu-link:hover {
+    color: #ffffff;
+    background-color: #ffbb42;
+}
+
+.topbar-menu-item:hover .topbar-menu-link {
+    color: #ffffff;
+    background-color: #ffbb42;
+}
+
+
+.header-form {
+    background-color: #709dca;
+    padding-top: 110px;
+}
+
+
+.header-form-text-box {
+    width: 725px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-form-title {
+    font-family: "Gotham Black";
+    font-weight: 400;
+    font-size: 35px; 
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.header-form-text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+
+.form {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.form-input {
+    width: 224px;
+    height: 41px;
+    padding-left: 41px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px; 
+    color: #a9a9a9;  
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-input:hover {
+    background-color: #ffe1ad;
+}
+
+.form-input:focus {
+    background-color: #ffbb42;
+    color: black;
+}
+
+.form-input-name {
+    background-image: url(../img/input-icon-01.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 15px 15px;
+}
+
+.form-input-email {
+    background-image: url(../img/input-icon-02.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 15px 16px;
+}
+
+.form-input-number {
+    background-image: url(../img/input-icon-03.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 15px 15px;
+}
+
+.form-button {
+    width: 211px;
+    height: 42px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ffbb42;
+    transition: all 0.3s ease;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-button:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+/* HEADER - Image */
+.header-image {
+    background-color: #709dca;
+}
+
+.header-img-box {
+    text-align: center;
+    height: 343px;
+    background-image: url(../img/header-img-laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 63px;
+}
+
+.header-img {
+    position: relative;
+    top: 17px;
+    left: 1px;
+}
+
+
+.header-ellipse-box {
+    margin-top: 87px;
+    text-align: center;
+}
+
+.header-ellipse-icon {
+    font-size: 20px;
+}
+
+.header-ellipse-link {
+    text-decoration: none;
+    color: #dedfe0;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.header-ellipse-link:last-child {
+    margin-right: 0;
+}
+
+.header-ellipse-link:hover {
+    color: #1ca8dd;
+}
+
+
+.main {
+    padding-top: 100px;
+}
+
+
+.services-title-box {
+    text-align: center;
+}
+
+.services-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.services-text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #394b50;
+    margin-top: 10px;
+}
+
+
+.services-item-box {
+    margin-top: 95px;
+}
+
+.services-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 550px;
+    margin-bottom: 75px;
+}
+
+.services-item-right {
+    padding-left: 60px;
+}
+
+
+.services-item-icon-box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.services-item-icon {
+    font-size: 50px;  
+    color: #709dca;
+}
+
+.how-item-icon {
+    font-size: 72px;
+    color: #709dca;
+}
+
+.fa-clock-o {
+    margin-right: 35px;
+}
+
+.fa-cog {
+    margin-right: 35px;
+}
+
+.fa-graduation-cap {
+    margin-right: 15px;
+}
+
+.fa-rocket {
+    margin-right: 30px;
+}
+
+.fa-renren {
+    margin-right: 35px;
+}
+
+.fa-usd {
+    margin-right: 45px;
+}
+
+.services-item-text-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    padding-left: 80px; 
+}
+
+.services-item-title {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.services-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7b7b7b;
+    margin-top: 21px;
+}
+
+.services-item-icon-link:hover > .fa {
+    color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+/* ABOUT */
+.about {
+    margin-top: 75px;
+    background-color: #ffc155;
+}
+
+
+.about-img-box {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffc155;
+    width: 50%;
+}
+
+.about-img {
+    width: 100%;
+    min-height: 623px;
+    background-image: url(../img/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.about-desc-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.about-text-box {
+    width: 505px;
+    margin-left: 80px;
+    margin-top: 164px;
+}
+
+.about-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: -0.75px;
+}
+
+.about-text {
+    margin-top: 28px;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.about-link-box {
+    margin-top: 51px;
+    margin-bottom: 50px;
+}
+
+.about-link {
+    padding: 18px 32px;
+    border: 1px solid #e7ad48;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.about-link:hover {
+    background-color: #ffffff;
+    color: #e7ad48;
+}
+
+
+.price {
+    background-color: #e7edf3;
+    padding-top: 137px;
+    padding-bottom: 50px;
+}
+
+.price-title-box {
+    text-align: center;
+}
+
+.price-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.price-text {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    color: #75888d;
+    margin-top: 10px;
+}
+
+
+.price-item-box {
+    font-size: 0;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.price-item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 57px 20px 0 20px;
+}
+
+.price-item--aside {
+    width: 345px;
+    min-height: 440px;
+    background: #ffffff;
+}
+
+.price-item--central {
+    width: 360px;
+    min-height: 501px;
+    background-color: #709dca;
+    position: relative;
+    bottom: 30px;
+    padding-top: 87px;
+}
+
+
+.price-item-title {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #818b95;
+}
+
+.price-item-price-box {
+    margin-top: 30px;
+}
+
+.price-item-price-icon {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.price-item-price-number {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.price-item-price-month {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 20px;
+    font-variant: small-caps;
+    color: #818b95;
+}
+
+.price-item-desc-box {
+    margin-top: 35px;
+}
+
+.price-item-desc {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b5bbc1;
+    padding: 15px 0;
+    border-top: 1px solid #e2e9f0;
+}
+
+
+.price-item-color--central {
+    color: #ffffff;
+}
+
+
+.price-item-link-box {
+    margin-top: 35px;
+}
+
+.price-item-link {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+.price-item-link:hover {
+    color: #ffbb42;
+    background-color: #ffffff;
+    border: 0.3px solid #ffbb42;
+}
+
+
+.how {
+    padding-top: 155px;
+    padding-bottom: 149px;
+}
+
+
+.how-title-box {
+    text-align: center;
+}
+
+.how-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.75px;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.how-text {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    color: #75888d;
+    margin-top: 10px;
+}
+
+
+.how-item-box {
+    font-size: 0;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.how-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 215px;
+    min-height: 300px;
+    text-align: center;
+    margin-right: 87px;
+}
+
+.how-item:last-child {
+    margin-right: 0;
+}
+
+.how-item--04 {
+    margin-top: 31px;
+}
+
+
+.how-item-title-box {
+    margin-top: 107px;
+}
+
+.how-item-title {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #394b50;
+}
+
+.how-item-text-box {
+    margin-top: 28px;
+}
+
+.how-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+.how-item-arrow-box {
+    position: relative;
+    left: 150px;
+}
+
+.how-item-arrow-box--02 {
+    position: relative;
+    transform: rotate(180deg);
+    top: 85px;
+}
+
+
+.how-link-box {
+    text-align: center;
+    margin-top: 91px;
+}
+
+.how-link {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 18px 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+.how-link:hover {
+    color: #ffbb42;
+    background-color: #ffffff;
+    border: 2px solid #ffbb42;
+}
+
+
+.clients {
+    background-color: #ffc155;
+    padding: 140px 0 160px 0;
+}
+
+
+.clients-title-box {
+    text-align: center;
+}
+
+.clients-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: -0.75px;
+}
+
+.clients-text {
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+.clients-item-box {
+    text-align: center;
+    font-size: 0;
+    margin-top: 58px;
+}
+
+.clients-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 560px;
+    min-height: 241px;
+    background-color: #ffffff;
+    margin: 0 36px 20px 0;
+}
+
+.clients-item--nomargin {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/
+.clients-item-picture-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 121px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.clients-item-text-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 340px;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+
+.clients-item-text:before {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/quotes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+    top: 13px;
+}
+
+.clients-item-text:after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/quotes-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 200px;
+    bottom: 13px;
+}
+
+.clients-item-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #7b7b7b;
+}
+
+.clients-item-author {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    color: #99a9ae;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.clients-item-author--name {
+    color: #f6772c;
+}
+
+
+
+.newsletter {
+    padding: 155px 0 57px 0;
+}
+
+
+
+.newsletter-title-box {
+    text-align: center;
+}
+
+.newsletter-title {
+    font-family: "Gotham Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #394b50;
+    letter-spacing: -0.75px;
+}
+
+.newsletter-text {
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #394b50;
+}
+
+
+
+.form-input-1 {
+    width: 308px;
+    border: 1px solid #cbcbcb;
+}
+
+.form-input-2 {
+    width: 388px;
+    border: 1px solid #cbcbcb;
+}
+
+.form2-button {
+    width: 218px;
+    height: 45px;
+}
+
+
+.address {
+    margin-top: 53px;
+    padding-top: 40px;
+    background-image: url(../img/address-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 549px;
+}
+
+.newsletter--border {
+    border-bottom: 1px solid #e3e7ec;
+}
+
+
+
+.address-box {
+    margin: 0 auto;
+    width: 279px;
+    height: 225px;
+    background-color: #394b50;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 65px;
+    position: relative;
+}
+
+.address-box-arrow {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+    border-top: 16px solid #394b50;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -13px;
+}
+
+.address-title {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.address-text {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 13px;
+    color: #aeb7ba;
+    margin-top: 13px;
+}
+
+
+.address-text:first-child {
+    margin-top: 20px;
+}
+.address-email-link {
+    text-decoration: none;
+    color: #ffbb42;
+    transition: all 0.3s ease;
+}
+
+.address-email-link:hover {
+    color: #ffffff;
+}
+
+
+
+.address-logo-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.footer {
+    padding-top: 70px;
+}
+.footer-menu-box {
+    text-align: center;
+}
+
+.footer-menu-link {
+    color: #394b50;
+    font-size: 13px;
+}
+
+.footer-contact-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-contact-tel {
+    font-family: Lato;
+    font-size: 23px;
+    font-weight: 400;
+    color: #394b50;
+}
+.footer-contact-tel-icon {
+    color: #394b50;
+    font-size: 23px;
+    margin-right: 7px;
+}
+
+.footer-contact-icon {
+    font-size: 18px;
+}
+
+
+
+.footer-icon-box {
+margin-top: 23px;
+text-align: center;
+}
+
+.footer-contact-icons {
+    font-size: 18px;  
+    margin-right: 17px;  
+    transition: all 0.3s ease;
+}
+
+.footer-contact-icons:last-child {
+    margin-top: 0;
+}
+
+.footer-contact-icons-link {
+    text-decoration: none;
+    color: #709dca;
+}
+
+.footer-contact-icons-link:hover .footer-contact-icons {
+    color: #ffc155;
+}
+
+.content-frame--footer {
+    padding-bottom: 53px;
+}
+
+
+
+.footer-basement {
+    background-color: #709dca;
+    text-align: auto;
+    padding: 18px 0;
+}
+
+.footer-basement-text {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
